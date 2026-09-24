@@ -1,0 +1,33 @@
+html{
+  scroll-behavior:smooth;
+}
+header{
+    text-align: center;
+    padding-bottom: 0;
+}
+h2{
+    text-align: center;
+}
+#about-me, #experience, #projects, #contact-me{
+    margin: 10%;
+    height: 25%;
+    padding-top: 10px;
+    text-align:center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: #020304;
+  color: white;
+}
