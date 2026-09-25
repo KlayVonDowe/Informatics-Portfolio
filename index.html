@@ -20,12 +20,12 @@
             <p>Software Developer | Web Designer | Data Specialist</p>
         </span>
     </div>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
         <a class="navbar-brand" href="#">KVD</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div class="collapse navbar-collapse  justify-content-end" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#about-me">About Me</a>
@@ -37,54 +37,63 @@
                     <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#partners">Partners</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="container-fluid">
+    <div class="container">
         <div id="about-me">
             <h2>About Me</h2>
-            <p> I am currently a Junior at Fort Hays State Univeristy studying Health Informatics. While studying at Fort Hays I am also a full time Medicaid
-                Relations Provider and Data Support Specialist for Greenbush The Education Service
-                Center. Most of my career I have worked as a software developer on various project, and have combined those software development skills with data anaylst skills. this allows me to build projects with excel as data apps for affordable solutions.
-                 When I am not working I also tend to consult for Excel, Web, and Software
-                Development projects. I aslo have a passion to use my skills for non-profit organizations and volunteer work.</p>
+            <br>
+            <p> I'm currently a junior at Fort Hays State University, majoring in Health Informatics. While pursuing my
+                degree, I'm also working full-time as a Medicaid Relations Provider and Data Support Specialist
+                for Greenbush The Education Service Center. Throughout my career, I've primarily worked as a software
+                developer on various projects, where I've combined my software development skills with data analysis
+                expertise. This combination has enabled me to create data-driven applications using Excel, providing
+                affordable solutions to clients.
+
+                In my free time, I often consult for clients on Excel, web, and software development projects. I'm
+                passionate about using my skills to support non-profit organizations and engage in volunteer work.
+            </p>
         </div>
         <div id="experience">
             <h2>Experience</h2>
+            <br>
             <p>I have spent most of my career working on native apps for companies using C# or vba in a
-                Dot.NET environment. This included maintining those applications while also creating new features per request of users. 
+                Dot.NET environment. This included maintining those applications while also creating new features per
+                request of users.
                 Not long after, I started developing data tools in excel using VBA, creating working apps in excel and
-                pivot reports, tools that can connect to sql databases. This is still heavily involved in my current position.</p>
+                pivot reports, tools that can connect to sql databases. This is still heavily involved in my current
+                position.</p>
         </div>
-
-        <div class="container-fluid">
-            <h2 id=projects>Projects</h2>
-            <div class="row">        
-                <div class="card col" style="width:400px; margin: 10px;">
+    </div>
+        <div class="container">
+            <h2 id=projects>Some of my Projects</h2>
+            <div class="card-deck">
+                <div class="card" >
                     <img class="card-img-top" src="image.png" alt="Logo Image" style="width: 100%;">
                     <div class="card-body">
                         <h4 class="card-title">Nasa API Project</h4>
-                        <p class="card-text">Project Text</p>
-                        <a href="https://github.com/KlayVonDowe/NasaBlazorApp" class="btn btn-primary">View on GitHub</a>
+                        <p class="card-text">Created using Blazor with C#</p>
+                        <a href="https://github.com/KlayVonDowe/NasaBlazorApp" class="btn btn-primary">View on
+                            GitHub</a>
                     </div>
                 </div>
 
-                <div class="card col" style="width:400px; margin: 10px;">
-                    <img class="card-img-top" src="Screenshot 2026-09-25 at 11.46.43 AM.png" alt="Logo Image" style="width: 100%; height: auto;">
+                <div class="card " >
+                    <img class="card-img-top" src="Screenshot 2026-09-25 at 11.46.43 AM.png" alt="Logo Image"
+                        style="width: 100%; height: auto;">
                     <div class="card-body">
                         <h4 class="card-title">Personal Portfolio Website</h4>
                         <p class="card-text">Created using HTML, Bootstrap 4, CSS, JS</p>
-                        <a href="https://klayvondowe.github.io/" target="_blank" class="btn btn-primary">View Project</a>
+                        <a href="https://klayvondowe.github.io/" target="_blank" class="btn btn-primary">View
+                            Project</a>
                     </div>
                 </div>
 
 
-                <div class="card col" style="width:400px; margin:10px;">
+                <div class="card ">
                     <img class="card-img-top" src="image.png" alt="Logo Image" style="width: 100%;">
                     <div class="card-body">
                         <h4 class="card-title">Excel Dashboard</h4>
@@ -95,15 +104,7 @@
 
             </div>
         </div>
-        <div id="partners">
-            <h2>Partners</h2>
-            <p></p>
-        </div>
-        <div id="contact-me">
-            <h2>Contact Me</h2>
-            <p></p>
-        </div>
-    </div>
+
     <hr>
     <footer class="footer" id="contact">
         <div class="row container-fluid">
@@ -117,11 +118,12 @@
             </div>
             <div class="col" style="text-align: center;">
                 <p>Profesional Links</p>
-                <p><a href="https://www.linkedin.com/in/klayvon-dowe/" target="_blank" class="fa fa-linkedin"></a> <a class="fa fa-github" href="https://github.com/KlayVonDowe" target="_blank"></a></p>
+                <p><a href="https://www.linkedin.com/in/klayvon-dowe/" target="_blank" class="fa fa-linkedin"></a> <a
+                        class="fa fa-github" href="https://github.com/KlayVonDowe" target="_blank"></a></p>
             </div>
             <div class="col">
                 <p>2026 by KlayVon Dowe.</p>
-                <p>Created By Klayvon Dowe</p>
+                <p>Created By Klayvon Dowe Hosted by GitHub Pages</p>
             </div>
         </div>
     </footer>

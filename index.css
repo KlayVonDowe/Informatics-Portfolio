@@ -8,10 +8,10 @@ header{
 h2{
     text-align: center;
 }
-#about-me, #experience, #projects, #contact-me{
+#about-me, #experience, #projects{
+    padding-top: 10% ;
     margin: 10%;
     height: 25%;
-    padding-top: 10px;
     text-align:center;
 }
 
